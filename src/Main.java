@@ -32,6 +32,7 @@ public class Main extends JPanel{
 	}
 	
 	public static void checkwin(){
+		check = 0;
 		for(Button[] button_array : array){
 			for (Button button: button_array){
 				if(button.get_light() == 0){
